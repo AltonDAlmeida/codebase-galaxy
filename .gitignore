@@ -1,0 +1,33 @@
+# ---------- Secrets (never commit these) ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# ---------- Database / Docker data ----------
+pgdata/
+*.sqlite3
+
+# ---------- Cloned repos (we'll add this folder on Day 2) ----------
+clones/
+
+# ---------- Editor and OS junk ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
